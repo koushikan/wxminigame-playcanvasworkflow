@@ -828,10 +828,6 @@ void main() {
 
       ticker.resume();
       ticker.start();
-      let constellationEl = document.querySelector('.constellation-icon img')
-      if (constellationEl) {
-        constellationEl.style.display = 'none';
-      }
     });
 
   var time = 0.,
